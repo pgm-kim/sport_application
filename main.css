@@ -1,7 +1,48 @@
+:root {
+    --color-white: #ffffff;
+    --color-broken-white: #F6F6F5;
+    --color-black: #000000;
+    --color-grey: #707070;
+    --color-light-blue: #AED2D3;
+    --color-dark-blue: #5473D3;
+    --color-mustard: #C69C21;
+    --color-dark-green: #1E6164;
+}
+
+
 .loginpage {
-    background-color: #aed2d3;
+    background-color: var(--color-light-blue);
     margin: auto;
+    display: flex;
+    
 }
 .skaterboy {
-    width: 50%;
+    margin: 20rem;
+vertical-align: middle
+;}
+
+.loginform {
+    vertical-align: middle;
 }
+
+body {
+    background-color: var(--color-broken-white);
+}
+
+header {
+    border-bottom: #707070;
+}
+
+button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: #C69C21;
+    color: #F6F6F5;
+    border-radius: 0.5rem;
+}
+
+.form {
+    padding-bottom: 1rem;
+}
+
